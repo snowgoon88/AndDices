@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dés L5R</string>
+    <string name="roll_result">Res: -</string>
+    <string name="roll_btn">Roll</string>
+    <string name="pool_btn">Pool</string>
+</resources>

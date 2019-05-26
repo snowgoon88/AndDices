@@ -22,9 +22,9 @@ public class Dice implements Comparable<Dice> {
         this.event += Integer.toString( result );
 
         if (this.specialized) {
-            while (this.result == 1) {
+            if (this.result == 1) {
                 this.event += "/";
-                result = this.rnd.nextInt( this.type );
+                result = 1 + this.rnd.nextInt( this.type );
                 this.event += Integer.toString( this.result );
             }
         }
